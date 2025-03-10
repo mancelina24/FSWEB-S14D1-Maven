@@ -12,7 +12,7 @@ public class Circle {
     }
 
     public double getArea(){
-        return Math.round(radius * radius * Math.PI * 100.0) / 100.0; // Virgülden sonra 2 basamak
+        return radius * radius * Math.PI ;
 
     }
 }

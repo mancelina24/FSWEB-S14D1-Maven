@@ -12,7 +12,7 @@ public class Cylinder extends Circle{
         return height;
     }
     public double getVolume() {
-        return Math.round(getArea() * height * 100.0) / 100.0; // Virgülden sonra 2 basamak
+        return getArea() * height;
     }
 
 }
